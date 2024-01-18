@@ -18,7 +18,7 @@ fn main() {
                 .long("length")
                 .action(ArgAction::Set)
                 .value_parser(clap::value_parser!(u8))
-                .default_value("12"),
+                .default_value("16"),
         )
         .arg(
             Arg::new("symbols")
